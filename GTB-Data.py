@@ -21,7 +21,6 @@ for i in range(5,len(tex)):
                 break
             b += tex[i+j+1]
         l.append(b)
-
 for ss in range(len(l)):
     b = l[ss]
     print(b)
@@ -45,11 +44,18 @@ for ss in range(len(l)):
             des.append(b)
     ses.pop()
     des = des[18:-8]
+    print(len(ses), len(des))
     dic[s[ss]] = [ses, des]
+
 
 print(dic['Yeni Asır'][0][5],dic['Yeni Asır'][1][5])
 
 import json
 
+
 with open('newspapers.json', 'w', encoding='utf-8') as f:
     json.dump(dic, f, ensure_ascii=False, indent=2)
+
+    #beyoglu, en son dakika, haber, son posta, son saat, 
+
+    #ulus sesi, ulusal birlik, birbirinin sayisini aldi
