@@ -41,17 +41,20 @@ Example structure:
       "10 mart  1935",
       "https://nek.istanbul.edu.tr/ekos/GAZETE/anadolu/anadolu_1935/anadolu_1935_mart_/anadolu_1935__mart_10_.pdf"
     ],
+
     [
       "11 mart  1935",
       "https://nek.istanbul.edu.tr/ekos/GAZETE/anadolu/anadolu_1935/anadolu_1935_mart_/anadolu_1935__mart_11_.pdf"
     ],
     ...
   ],
+
   "Vatan": [
     [
       "04 Ağustos 1940",
       "https://nek.istanbul.edu.tr/ekos/GAZETE/vatan/vatan_1940/vatan_1940_agustos_/vatan_1940_agustos_4_.pdf"
     ],
+
     [
       "19 Ağustos 1940",
       "https://nek.istanbul.edu.tr/ekos/GAZETE/vatan/vatan_1940/vatan_1940_agustos_/vatan_1940_agustos_19_.pdf"
