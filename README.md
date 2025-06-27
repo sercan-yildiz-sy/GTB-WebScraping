@@ -21,22 +21,23 @@ There are two scripts available:
 - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
 Install dependencies with:
-
+```
 pip install requests beautifulsoup4
+```
 ## Usage
 
 1. Clone or download this repository.
 2. Run the script:
-
+```
 python GTB-Data-BeautifulSoup.py
-
+```
 ## Example Output
 The extracted data is saved as JSON files.  
 You can find the outputs in `newspapers.json` for `GTB-Data.py` and `newspapers-bs4.json` for `GTB-Data-BeautifulSoup.py`.
 
 Example structure:
 
-{
+```{
 "Anadolu": [
     [
       "10 mart  1935",
@@ -63,8 +64,7 @@ Example structure:
     ...
 
 }
-
-
+```
 
 ## Amount of Newspapers
 
