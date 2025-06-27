@@ -2,7 +2,9 @@
 
 This project provides Python scripts to extract newspaper names, available dates, and related links for newspaper volumes from the Istanbul University Newspaper Archive using web scraping techniques.
 There are two scripts available: 
+
 •	`GTB-Data.py`: Uses manual string parsing to extract data from the HTML content.
+
 •	`GTB-Data-BeautifulSoup.py`: Utilizes the requests library and BeautifulSoup for robust HTML parsing.
 
 ## Features
@@ -19,11 +21,13 @@ There are two scripts available:
 - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 
 Install dependencies with:
+
 pip install requests beautifulsoup4
 ## Usage
 
 1. Clone or download this repository.
 2. Run the script:
+
 python GTB-Data-BeautifulSoup.py
 
 ## Example Output
@@ -34,11 +38,11 @@ Example structure:
 {
 "Anadolu": [
     [
-      "mart  1935",
+      "10 mart  1935",
       "https://nek.istanbul.edu.tr/ekos/GAZETE/anadolu/anadolu_1935/anadolu_1935_mart_/anadolu_1935__mart_10_.pdf"
     ],
     [
-      "mart  1935",
+      "11 mart  1935",
       "https://nek.istanbul.edu.tr/ekos/GAZETE/anadolu/anadolu_1935/anadolu_1935_mart_/anadolu_1935__mart_11_.pdf"
     ],
     ...
