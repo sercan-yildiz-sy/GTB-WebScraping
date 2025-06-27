@@ -35,6 +35,7 @@ The extracted data is saved as JSON files.
 You can find the outputs in `newspapers.json` for `GTB-Data.py` and `newspapers-bs4.json` for `GTB-Data-BeautifulSoup.py`.
 
 Example structure:
+
 {
 "Anadolu": [
     [
